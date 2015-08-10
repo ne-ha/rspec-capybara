@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Reveal.js 3 Slide Demo</title>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+        <!--Add support for earlier versions of Internet Explorer -->
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Wrap the entire slide show in a div using the "reveal" class. -->
+        <div class="reveal">
+            <!-- Wrap all slides in a single "slides" class -->
+            <div class="slides">
+              <!-- Each section element contains an individual slide -->
+              <section>
+                <section>
+                  <h2>Testing</h2>
+                  <p> By Neha Suwal</p>
+                  <p> <a href = "https://twitter.com/NSuwal" target="_blank">@NSuwal</a></p>
+                  <p> <a href = "https://github.com/ne-ha" target="_blank"> GitHub: ne-ha</a></p>
+                  <p> <a href = "mailto:neha@jyaasa.com" target="_blank"> neha@jyaasa.com</a></p>
+                </section>
+              </section>
+              <section>
+                <section>
+                  <h3>Rspec</h3>
+                  <p>Rspec-rails is a testing framework</p>
+                  
+                </section>
+
+                <section>
+                  <h3>Setup in your project:</h3>
+                  <img src='images/step1.png'><br />
+                  <img src='images/step2.png'><br />
+                  <img src='images/step3.png'>
+                </section>
+
+                <section>
+                  <p>Use rspec command to run the spec</p>
+                  <img src='images/step4.png'>
+                  <p>By default the above will run all _spec.rb files in the spec directory</p>
+                </section>
+                
+                <section>
+                  <p>Rspec</p>
+                  <ul>
+                    <li>Model Spec</li>
+                    <li>Controller Spec</li>
+                    <li>Feature Spec</li>
+                    <li>View Spec</li>
+                    <li>Routing Spec</li>
+                    <li>Helper Spec</li>
+                  </ul>
+                </section>
+
+               <section>
+                  <h6>Feature Spec</h6>
+                  <p>Feature specs, a kind of acceptance test, are high-level tests that walk through your entire application ensuring that each of the components work together.</p><br />
+                  <p>An example</p>
+                  <img src='images/step5.png'>
+                </section>
+
+                <section>
+                  <p>The feature test can be done by using capyabara.</p><br />
+                  <p>Capybara helps you test web applications by simulating how a real user would interact with your app.</p>
+                </section>
+
+                <section>
+                  <p>Adding Capybara in rails project:</p>
+                  <img src='images/step6.png'><br />
+                  <img src='images/step7.png'>
+                  <p>Require capyabara.rails in spec_helper.rb</p><br />
+                  <p>To run test via capybara gem 'selenium-webdriver' is required.</p> 
+                </section>
+              </section>
+
+            </div>
+        </div>
+        <script src="js/head.js"></script>
+        <script src="js/reveal.js"></script>
+        <script>
+                // Required, even if empty.
+                Reveal.initialize({
+                });
+        </script>
+    </body>
+</html>
