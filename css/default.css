@@ -15,14 +15,14 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #1c1e20;
-  background: -moz-radial-gradient(center, circle cover, #406080 0%, #1c1e20 100%);
-  background: -webkit-gradient(center, circle cover, #406080 0%, #1c1e20 100%);
-  background: -webkit-radial-gradient(center, circle cover, #406080 0%, #1c1e20 100%);
-  background: -o-radial-gradient(center, circle cover, #406080 0%, #1c1e20 100%);
-  background: -ms-radial-gradient(center, circle cover, #406080 0%, #1c1e20 100%);
-  background: radial-gradient(center, circle cover, #406080 0%, #1c1e20 100%);
-  background-color: #2b2b2b; }
+  background: #8C9B9C;
+  background: -moz-radial(center, circle cover, #406080 0%, #1c1e20 100%);
+  background: -webkit(center, circle cover, #406080 0%, #1c1e20 100%);
+  background: -webkit-radial(center, circle cover, #406080 0%, #1c1e20 100%);
+  background: -o-radial(center, circle cover, #406080 0%, #1c1e20 100%);
+  background: -ms-radial(center, circle cover, #406080 0%, #1c1e20 100%);
+  background: radial(center, circle cover, #406080 0%, #1c1e20 100%);
+  background-color: #8C9B9C; }
 
 .reveal {
   font-family: "Lato", sans-serif;
